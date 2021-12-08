@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane4" prefHeight="700.0" prefWidth="1077.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.DevlopersDetails">
+   <children>
+      <BorderPane layoutX="1.0" prefHeight="711.0" prefWidth="1074.0">
+         <left>
+            <AnchorPane prefHeight="700.0" prefWidth="375.0" style="-fx-background-color: ORANGE;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="92.0" layoutY="84.0" prefHeight="32.0" prefWidth="239.0" text="DEVLOPER">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="196.0" prefHeight="27.0" prefWidth="192.0" text="JEMIN BHANUSHALI">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="242.0" prefHeight="27.0" prefWidth="192.0" text="PRATHAMESH NAIK">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="288.0" prefHeight="27.0" prefWidth="192.0" text="AVINASH ANDHALE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="37.0" layoutY="328.0" prefHeight="27.0" prefWidth="192.0" text="VISHNUKANT MULE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="212.0" layoutY="196.0" prefHeight="27.0" prefWidth="192.0" text="(LEADER)">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </left>
+         <right>
+            <AnchorPane prefHeight="711.0" prefWidth="674.0" style="-fx-background-color: CYAN;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="122.0" layoutY="83.0" prefHeight="32.0" prefWidth="239.0" text="DEVLOPMENT TOOLS">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="192.0" prefHeight="27.0" prefWidth="192.0" text="JAVA SDK">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="235.0" prefHeight="27.0" prefWidth="192.0" text="MY SQL">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="278.0" prefHeight="27.0" prefWidth="192.0" text="ECLIPSE IDE">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="94.0" layoutY="329.0" prefHeight="27.0" prefWidth="192.0" text="WAMPSERVER">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="537.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadMainpage" prefHeight="39.0" prefWidth="68.0" style="-fx-background-color: cyan;" text="🡰">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>

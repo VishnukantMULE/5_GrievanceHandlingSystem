@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPanea" prefHeight="710.0" prefWidth="1060.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminDashbord">
+   <children>
+      <BorderPane prefHeight="710.0" prefWidth="1060.0">
+         <top>
+            <AnchorPane prefHeight="93.0" prefWidth="1060.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+               <children>
+                  <Button layoutX="978.0" mnemonicParsing="false" onAction="#loadAdminLogin" prefHeight="52.0" prefWidth="76.0" style="-fx-background-color: orange;" text="🡰">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Button>
+                  <Label layoutX="63.0" layoutY="26.0" prefHeight="17.0" prefWidth="309.0" text="ADMIN DASHBORD">
+                     <font>
+                        <Font size="22.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="618.0" prefWidth="1060.0" style="-fx-background-color: cyan;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="187.0" fitWidth="261.0" layoutX="409.0" layoutY="63.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../bgimage/Untitled%20Design77.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="387.0" layoutY="237.0" prefHeight="17.0" prefWidth="248.0" text="ADMIN NAME">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="357.0" layoutY="309.0" mnemonicParsing="false" onAction="#loadUserGrievances" prefHeight="46.0" prefWidth="292.0" style="-fx-background-color: #39ff14;" text="USER GRIEVANCES">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+                  <Button layoutX="357.0" layoutY="383.0" mnemonicParsing="false" onAction="#loadAdminHistory" prefHeight="46.0" prefWidth="292.0" style="-fx-background-color: #Ff00ff;" text="HISTORY">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Button>
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

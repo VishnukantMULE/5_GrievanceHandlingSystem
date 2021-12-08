@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="616.0" prefWidth="882.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <BorderPane prefHeight="612.0" prefWidth="882.0">
+         <top>
+            <AnchorPane prefHeight="100.0" prefWidth="1020.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER" />
+         </top>
+         <bottom>
+            <AnchorPane prefHeight="512.0" prefWidth="882.0" style="-fx-background-color: cyan;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="252.0" fitWidth="292.0" layoutX="335.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../../../../bgimage/Screenshot%202021-11-23%20104746.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="338.0" layoutY="265.0" prefHeight="70.0" prefWidth="256.0" text="SUBMITTED" textFill="#029a42">
+                     <font>
+                        <Font size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </bottom>
+      </BorderPane>
+   </children>
+</AnchorPane>

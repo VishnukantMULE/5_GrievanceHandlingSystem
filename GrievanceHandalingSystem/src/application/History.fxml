@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="711.0" prefWidth="1052.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <BorderPane prefHeight="711.0" prefWidth="1052.0">
+         <top>
+            <AnchorPane prefHeight="109.0" prefWidth="1052.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="36.0" layoutY="36.0" prefHeight="17.0" prefWidth="216.0" text="YOUR HISTORY">
+                     <font>
+                        <Font size="26.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+         </top>
+         <center>
+            <TableView prefHeight="586.0" prefWidth="1052.0" BorderPane.alignment="CENTER">
+               <columns>
+                  <TableColumn prefWidth="140.99996948242188" text="USER ID" />
+                  <TableColumn prefWidth="111.0" text="DATE" />
+                  <TableColumn prefWidth="179.0" text="USER NAME" />
+                  <TableColumn prefWidth="549.0" text="GRIEVANCE SUBJECT" />
+                  <TableColumn text="STATUS" />
+               </columns>
+            </TableView>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

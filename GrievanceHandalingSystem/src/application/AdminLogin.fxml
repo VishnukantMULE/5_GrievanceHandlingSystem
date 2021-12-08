@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="rootPane3" prefHeight="726.0" prefWidth="1094.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.AdminLogin">
+   <children>
+      <BorderPane prefHeight="753.0" prefWidth="1030.0">
+         <left>
+            <AnchorPane prefHeight="753.0" prefWidth="404.0" style="-fx-background-color: orange;" BorderPane.alignment="CENTER" />
+         </left>
+         <right>
+            <AnchorPane prefHeight="753.0" prefWidth="704.0" style="-fx-background-color: cyan;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="137.0" layoutY="366.0" prefHeight="30.0" prefWidth="148.0" text="ADMIN ID">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="137.0" layoutY="418.0" prefHeight="30.0" prefWidth="148.0" text="PASSWORD">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="42.0" layoutY="636.0" prefHeight="30.0" prefWidth="634.0" text="IF YOU WANT ADMIN LOGIN AND PASSWORD THEN CONTACT TO DEVLOPER">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <TextField fx:id="TextField" layoutX="285.0" layoutY="365.0" prefHeight="31.0" prefWidth="268.0" promptText="enter your id" />
+                  <Button layoutX="208.0" layoutY="504.0" mnemonicParsing="false" onAction="#loadAdminDashbord" prefHeight="59.0" prefWidth="288.0" style="-fx-background-color: lime;" text="login">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="Lable" layoutX="232.0" layoutY="466.0" prefHeight="17.0" prefWidth="375.0" textFill="#ff2b2b">
+                     <font>
+                        <Font size="17.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="253.0" fitWidth="259.0" layoutX="268.0" layoutY="84.0" pickOnBounds="true">
+                     <image>
+                        <Image url="@../../../../bgimage/Untitled%20Design.jpg" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="25.0" layoutY="28.0" prefHeight="39.0" prefWidth="164.0" text="LOGIN HERE" textFill="RED">
+                     <font>
+                        <Font name="Calibri" size="27.0" />
+                     </font>
+                  </Label>
+                  <Button layoutX="590.0" layoutY="14.0" mnemonicParsing="false" onAction="#loadMainPageBackm" prefHeight="55.0" prefWidth="72.0" style="-fx-background-color: cyan;" text="🡰">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Button>
+                  <PasswordField fx:id="PasswordField" layoutX="285.0" layoutY="411.0" prefHeight="32.0" prefWidth="269.0" promptText="enter your password" />
+               </children>
+            </AnchorPane>
+         </right>
+      </BorderPane>
+   </children>
+</AnchorPane>
